@@ -1,0 +1,5 @@
+<div *ngIf="loading" class="loading">Cargando posts...</div>
+<ul *ngIf="!loading">
+  <li *ngFor="let post of posts">{{ post.title }}</li>
+</ul>
+

@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f0f8ff; /* un azul muy claro para fondo */
+  margin: 0;
+  padding: 0 20px;
+  color: #333;
+}
+
+nav {
+  background-color: #54B9F0; /* azul principal */
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+button {
+  background-color: #9EF054; /* verde */
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #82cc2e;
+  color: white;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 2px;
+  background-color: #54B9F0;
+  border-radius: 2px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.loading {
+  font-style: italic;
+  color: #54B9F0;
+}
+
+/* Tema claro */
+body.light-theme {
+  background-color: white;
+  color: black;
+}
+
+/* Tema oscuro */
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+/* Estilos para la lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+

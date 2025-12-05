@@ -1,0 +1,5 @@
+<div *ngIf="loading" class="loading">Cargando usuarios...</div>
+<ul *ngIf="!loading">
+  <li *ngFor="let user of users">{{ user.name }}</li>
+</ul>
+
